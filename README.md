@@ -84,30 +84,6 @@ Una aplicación móvil híbrida desarrollada con React Native y Expo que permite
    npm run ios
    ```
 
-## 📁 Estructura del Proyecto
-
-```
-actividad6/
-├── src/
-│   ├── components/          # Componentes reutilizables
-│   │   ├── BookCard.js      # Tarjeta de libro para listas
-│   │   ├── LoadingSpinner.js # Indicador de carga
-│   │   └── ErrorMessage.js   # Componente de error
-│   ├── screens/             # Pantallas principales
-│   │   ├── SearchScreen.js   # Pantalla de búsqueda
-│   │   ├── BookDetailsScreen.js # Detalles del libro
-│   │   └── FavoritesScreen.js   # Lista de favoritos
-│   ├── services/            # Servicios y APIs
-│   │   ├── googleBooksAPI.js    # Cliente de Google Books API
-│   │   └── favoritesService.js  # Gestión de favoritos locales
-│   └── utils/               # Utilidades y configuración
-│       └── config.js        # Configuración de API
-├── assets/                  # Recursos estáticos
-├── App.js                   # Componente principal y navegación
-├── package.json            # Dependencias y scripts
-└── README.md              # Este archivo
-```
-
 ## 🔧 Configuración de API
 
 ### Google Books API
@@ -132,36 +108,6 @@ La aplicación utiliza AsyncStorage para mantener los libros favoritos persisten
 - **Navegación intuitiva** entre pantallas
 - **Estados vacíos** con mensajes guía para el usuario
 - **Validación de entrada** en formularios de búsqueda
-
-## 🧪 Funcionalidades Implementadas
-
-### ✅ Requerimientos Cumplidos
-- [x] **Consumo de API compleja** - Google Books API con múltiples campos
-- [x] **Integración con almacenamiento local** - AsyncStorage para favoritos
-- [x] **Navegación entre pantallas** - React Navigation Stack
-- [x] **Manejo de errores** - Try-catch y componentes de error
-- [x] **Estados de carga** - LoadingSpinner durante operaciones
-- [x] **Pantalla de búsqueda** - Campo de búsqueda y lista de resultados
-- [x] **Pantalla de detalles** - Información completa del libro
-- [x] **Sistema de favoritos** - Agregar, quitar y listar favoritos
-- [x] **Enlaces externos** - Vista previa e información adicional
-
-### 🔄 Flujo de Usuario Completo
-1. Usuario ingresa término de búsqueda
-2. App consulta Google Books API
-3. Se muestran resultados en lista
-4. Usuario selecciona un libro
-5. Se navega a pantalla de detalles
-6. Usuario puede agregar a favoritos
-7. Libro se guarda localmente
-8. Usuario puede ver favoritos en pantalla dedicada
-
-## 🐛 Manejo de Errores
-
-- **Errores de red**: Retry automático y mensajes informativos
-- **API no disponible**: Fallback y notificación al usuario
-- **Datos incompletos**: Valores por defecto y validaciones
-- **Almacenamiento local**: Manejo de fallos de escritura/lectura
 
 ## 📱 Compatibilidad
 
@@ -189,35 +135,3 @@ npm start
 # Limpiar caché
 npm run clear
 ```
-
-## 📸 Capturas de Pantalla
-
-*Las capturas de pantalla se pueden agregar después de ejecutar la aplicación*
-
-## 🤝 Contribución
-
-1. Fork del proyecto
-2. Crear rama para nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit de cambios (`git commit -am 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crear Pull Request
-
-## 📄 Licencia
-
-Este proyecto es parte de una actividad académica.
-
-## 👨‍💻 Autor
-
-**Marco** - Actividad 6 - Desarrollo de Aplicaciones Móviles
-
-## 📞 Soporte
-
-Para dudas o problemas con la aplicación:
-1. Verificar que todas las dependencias estén instaladas
-2. Comprobar conexión a internet para API calls
-3. Revisar logs de consola para errores específicos
-4. Verificar versión de Node.js y Expo CLI
-
----
-
-**¡Disfruta explorando y guardando tus libros favoritos! 📚✨**
