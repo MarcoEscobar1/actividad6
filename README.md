@@ -1,6 +1,8 @@
 # 📚 Book Search App
 
 Una aplicación móvil híbrida desarrollada con React Native y Expo que permite buscar libros usando la Google Books API, ver detalles completos y guardar favoritos localmente.
+<img width="381" height="756" alt="{971E89D0-CE30-4B0A-869B-2EE62D5E1D2E}" src="https://github.com/user-attachments/assets/405327a3-d09e-44d7-b1ba-9d276543720e" />
+
 
 ## 🎯 Características
 
